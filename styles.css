@@ -31,9 +31,6 @@ header {
 #desktop-nav {
   display: none;
 }
-header {
-  display: none;
-}
 
 #hamberger {
   display: block;
@@ -414,7 +411,6 @@ header {
   height: 3px;
   justify-content: center;
   width: 35px;
-  height: 2px;
   margin-left: 59%;
 }
 
@@ -433,7 +429,7 @@ header {
 .about-logo {
   padding: 10%;
   border: solid grey 1px;
-    margin: 10px;
+  margin: 10px;
 }
 
 .past-event-summit-frame1 {

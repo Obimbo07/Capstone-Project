@@ -31,8 +31,12 @@ header {
 #desktop-nav {
   display: none;
 }
+header {
+  display: none;
+}
 
 #hamberger {
+  display: block;
   height: 27.28px;
   width: 31px;
   margin-left: 7%;
@@ -114,6 +118,7 @@ header {
 .banner-quote {
   margin-left: 2%;
   padding: 2%;
+  text-align: left;
   padding-top: 28%;
 }
 
@@ -135,7 +140,7 @@ header {
 }
 
 .banner-date {
-  margin-left: 3%;
+  margin-left: 0%;
   margin-right: 3%;
 }
 
@@ -208,7 +213,7 @@ header {
 .bottom-text {
   background: #ff4f38;
   padding: 2%;
-  margin: 3%;
+  margin: 7%;
 }
 
 .program-title {
@@ -340,6 +345,7 @@ header {
 
 .herocontent-text2 {
   background-color: #fff;
+  margin: 18px;
 }
 
 .hero-text {
@@ -355,12 +361,12 @@ header {
   line-height: 25px;
   letter-spacing: -0.06em;
   text-align: center;
-  padding: 3%;
+  padding: 6%;
   color: #000;
 }
 
 .textcontent-3 {
-  color: #f7f7f8;
+  background-color: #f7f7f8;
   padding: 4%;
 }
 
@@ -398,7 +404,7 @@ header {
 }
 
 .logobreaker-container {
-  width: 70%;
+  width: 76%;
   margin-top: 4%;
   margin-bottom: 5%;
 }
@@ -407,7 +413,8 @@ header {
   background-color: #ff4f38;
   height: 3px;
   justify-content: center;
-  width: 15%;
+  width: 35px;
+  height: 2px;
   margin-left: 59%;
 }
 
@@ -419,10 +426,14 @@ header {
   letter-spacing: -0.03em;
   text-align: center;
   color: #838383;
+  margin: 2px;
+    padding: 6px;
 }
 
 .about-logo {
   padding: 10%;
+  border: solid grey 1px;
+    margin: 10px;
 }
 
 .past-event-summit-frame1 {
@@ -525,9 +536,8 @@ header {
 
 @media (min-width: 768px) {
   .hero-text {
-    padding: 20px;
     font-size: 38px;
-    text-align: center;
+    text-align: left;
   }
 
   #text1 {
@@ -608,10 +618,10 @@ header {
 
   .banner-quote {
     padding-top: 3%;
+    margin-left: -4%;
   }
 
   .banner-date {
-    margin-left: 3%;
     margin-right: 3%;
     display: flex;
     gap: 20px;
@@ -787,6 +797,7 @@ header {
     width: fit-content;
     margin-left: 36%;
     padding: 3%;
+    border: solid 1px #b7b7b7;
   }
 
   .past-event-summit-frame1 {
@@ -828,5 +839,8 @@ header {
 
   #home-credit {
     color: #000;
+  }
+  .footer-dark {
+    display: none;
   }
 }

@@ -423,7 +423,7 @@ header {
   text-align: center;
   color: #838383;
   margin: 2px;
-    padding: 6px;
+  padding: 6px;
 }
 
 .about-logo {
@@ -836,6 +836,7 @@ header {
   #home-credit {
     color: #000;
   }
+  
   .footer-dark {
     display: none;
   }

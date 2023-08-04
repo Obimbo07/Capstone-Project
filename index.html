@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale= 1">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="author" content="Austin obimbo">
+        <title>Capstone Project</title>
+        <link rel="stylesheet" type="text/css" href="styles.css">
+        <link rel="stylesheet" type="text/css" href="normalize.css"> 
+    </head>
+    <body>
+       <header>
+        <nav id="top-nav">
+           <ul class= "top-nav-list">
+            <li class="topNav"><img src="img/facebook.png" alt="twitter"></li>
+            <li class="topNav"><img src="img/twitter.png" alt="twitter"></li>
+            <li class="topNav">English</li>
+            <li class="topNav">My Page</li>
+            <li class="topNav">Logout</li>
+           </ul>
+          </nav>
+          <nav>
+            <img id="hamberger" src="img/mobile_menu 1.png" onclick="openMenu()" alt="ham-btn">
+            <a href="index.html" class=logo-link> <img class="logo"  src = "img/logo.png" alt="logo"> </a>
+            <ul id="desktop-nav">
+                <a href="About.html"><li class="nav-linksDesktop">About</li></a>
+                 <a href="index.html"> <li class="nav-linksDesktop">Program</li></a>
+                    <a href="index.html"><li class="nav-linksDesktop">join</li></a>
+                        <a href="index.html"><li class="nav-linksDesktop">Sponsor</li></a>
+                            <a href="index.html"><li class="nav-linksDesktop">News</li></a>
+                                <a href="index.html"><li class="nav-linksDesktop" id="campaign">CC Campaign</li></a>
+            </ul>
+          </nav>
+          <div class="drop-down" id="navMenu">
+            <ul class="dropdown-menu">
+             <h1 aria-hidden="true" class="times-Btn" id="menu-close" onclick="closeMenu()">&times;</h1>
+             <a href="About.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">About</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Program</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Join</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Sponsors</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">News</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">CC Campaign</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">English</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">My Page</li> </a>
+             <a href="index.html"><li class="menu-link" id="nav-btn" onclick="closeMenu()">Log Out</li> </a>
+            </ul>
+        </div>
+        </header>
+        <section id="banner">
+            <div class="banner-hero">
+            <div class="banner-quote"> 
+                <h3 class="hero-text" id="text1" >"Hello! STEM World"</h3>
+                <h2 class="hero-text" id="text2">CREATIVE LEARNING INSPIRATION 2023</h2>
+            </div>
+            <div class="banner-text">
+                <p>A joyful celebration believing in the value of openness and sharing, creating a positive change with people from over 80 countries is taking place in May, in Nairobi.</p>
+            </div>
+            <div class="banner-date">
+                <h1 class="date-title">2023 . 10. 15(THU) ~ 16(FRI) </h1>
+                <h2 class="date-subtitle">&copy; Nairobi, Kenya, The Alma Cyton Limuru road</h2>
+            </div>
+        </div>
+        </section>
+        <section id="program">
+            <div class="program-content">
+                <div class="program-main-title">
+                    <h1 class="program-head">Main Program</h1>
+                    <hr class="program-breaker">
+                </div>
+              <div class="program-flex">
+                <div class="program-details">
+                    <div class="program-card">
+                        <div class="card-details"> 
+                            <img class="program-img" src="img/program_icon_01 1.png" alt="card image">
+                            <div class="program-text">
+                                <h5 class="program-title">Lecture</h5>
+                                <p class="program-text2">Listen to the speakers from various countries about the messages of sharing and opening.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-details">
+                    <div class="program-card">
+                        <div class="card-details"> 
+                            <img class="program-img" src="img/program_icon_02 1.png" alt="card image">
+                            <div class="program-text">
+                                <h5 class="program-title">CC Exhibition</h5>
+                                <p class="program-text2">Appreciate various creations applying CC license of artists, organized from Art Center Nabi.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-details">
+                    <div class="program-card">
+                        <div class="card-details"> 
+                            <img class="program-img" src="img/program_icon_03 1.png" alt="card image">
+                            <div class="program-text">
+                                <h5 class="program-title">Forum</h5>
+                                <p class="program-text2">Have the time to share your thoughts and opinions with experts for each topic.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-details">
+                    <div class="program-card">
+                        <div class="card-details"> 
+                            <img class="program-img" src="img/program_icon_04 1.png" alt="card image">
+                            <div class="program-text">
+                                <h5 class="program-title">WorkFlow</h5>
+                                <p class="program-text2">Try creating your own work using open source license rather than just watching at it.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="program-details">
+                    <div class="program-card">
+                        <div class="card-details"> 
+                            <img class="program-img" src="img/program_icon_05 1.png" alt="card image">
+                            <div class="program-text">
+                                <h5 class="program-title">CC ignite</h5>
+                                <p class="program-text2">get opportunities to network with CC affiliates around the world, also after the summit.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <button class="bottom-text">
+                   <h2>Join CC Global Summit 2015</h2>
+                </button>
+            </div>
+        </section>
+        <section id="feartured-speakers">
+            <div class="section-content">
+                <div class=section-title>
+                    <h1>Featured Speakers</h1>
+                    <hr class="speakers-breaker">
+                    <div id="speakers-section">
+
+                    </div>
+                </div>
+              <div id="speakers">
+                  <div class="speaker"></div>
+                 <div class="speaker-img"></div> 
+                 <div class="speaker-intro" >
+                    <div class="speaker-name"></div>
+                    <div class="speaker-profession"></div>
+                    <div class="speaker-decription"></div>
+                 </div>
+             </div>
+            </div>
+        </section>
+        <section id="partners">
+            <div class="partners-title">
+                <h2 id="partner">Partner</h2>
+                <hr id="partner-breaker">
+            </div>
+            <div class="partners-logo">
+               <div class="partnersLogo">
+                  <img class= "partners-Logo" src="img/mozilla 1.png" alt="Mozilla">
+                  <img class= "partners-Logo" src="img/googlekorea 1.png" alt="Google">
+                  <img class= "partners-Logo" src="img/naver 1.png" alt="Naver">
+                  <img class= "partners-Logo" src="img/daumkakaologo 1.png" alt="daumkakao">
+                  <img class= "partners-Logo" src="img/airbnb 1.png" alt="AirBnb">
+               </div>
+            </div>
+        </section>
+        <footer id="footer">
+            <div class="footer-content">
+              <img  src="img/cck-logo1 1.png" alt="footer-img">
+             <div class="footer-credit">
+                <p id="home-credit">2015 Creative Commons Korea. Some Rights Reserved.</p>
+            </div>
+          </div>
+        </footer>
+       <script src="index.js"></script> 
+ </body>
